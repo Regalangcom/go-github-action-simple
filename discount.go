@@ -35,5 +35,5 @@ func main() {
 	customer := Member
 	discount := CalculateDiscount(customer, total)
 
-	fmt.Printf("Customer Type: %s\nTotal: %.2f\nDiscount: %.2f\n", customer, total, discount)
+	fmt.Printf("this is result : Customer Type: %s\nTotal: %.2f\nDiscount: %.2f\n", customer, total, discount)
 }
